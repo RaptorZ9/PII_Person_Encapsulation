@@ -20,3 +20,8 @@ una cédula es válida calculando el dígito verificador.
 No incluye el código de la clase Person, que deberán programar ustedes a partir
 del [ejercicio](https://github.com/ucudal/PII_Identificar_partes_de_objeto) de
 identificar las partes de un objeto.
+
+## Uso de ![GitHub Copilot](https://img.shields.io/badge/GitHub%20Copilot-000?logo=githubcopilot&logoColor=fff)
+
+Es posible usar GitHub Copilot en este repositorio. Consulta [cómo usar Copilot
+para aprender](./COPILOT.md).
