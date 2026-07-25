@@ -2,6 +2,7 @@
 applyTo: "*.cs"
 ---
 
+<<<<<<< HEAD
 # Guideline to determine what the users know or don't know in Programación II
 
 These are the topics covered in the Programación II course. This exercise does
@@ -9,6 +10,15 @@ not necessarily evaluate all of them, just the ones that are marked.
 
 If a concept is not marked, you can't suggest its usage nor mention it in
 feedback; the user does not know the concept and mentioning it can be confusing.
+=======
+# Guideline to determine what student's know or don't know in Programación II
+
+These are the topics covered in the Programación II course. This exercise not
+necessarily evaluates all of them, just the ones that are marked.
+
+If a concept is not marked, you can't suggest its usage nor mention it in
+feedback; students don't know the concept and mentioning it can be confusing.
+>>>>>>> upstream/main
 
 If a concept is not marked, you can't evaluate its application in the current
 solution.
@@ -31,17 +41,30 @@ solution.
 - [X] Access modifiers: public and private
 - [X] Properties and fields, getter and setters
 - [X] Constructors
+<<<<<<< HEAD
 - [ ] Namespaces
 - [ ] Unit tests
 - [X] Instance members vs. class/static members
 - [ ] Delegates and events
 - [ ] LINQ
 - [ ] SRP: Single Responsibility Principle
+=======
+- [X] Namespaces
+- [X] Unit tests
+- [X] Instance members vs. class/static members
+- [ ] Delegates and events
+- [ ] LINQ
+- [X] SRP: Single Responsibility Principle
+>>>>>>> upstream/main
 - [ ] OCP: Open/Closed Principle
 - [ ] LSP: Liskov Substitution Principle
 - [ ] ISP: Interface Segregation Principle
 - [ ] DIP: Dependency Inversion Principle
+<<<<<<< HEAD
 - [ ] GRASP: Expert
+=======
+- [X] GRASP: Expert
+>>>>>>> upstream/main
 - [ ] GRASP: Polymorphism
 - [ ] GRASP: Creator
 - [ ] GRASP: Expert
