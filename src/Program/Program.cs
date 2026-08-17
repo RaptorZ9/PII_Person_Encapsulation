@@ -1,4 +1,5 @@
 using System.Linq;
+using System;
 
 public class IdUtils
 {
@@ -74,5 +75,47 @@ public static class Program
         Person jane = new Person("Jane Doe", "8.765.432-7");
         john.IntroduceYourself();
         jane.IntroduceYourself();
+    }
+}
+
+public class Person
+{
+    private string name;
+    public string Name
+    {
+        get { return name;}
+        set
+        {
+            if (value != "")
+            {
+                name = value;
+            }
+
+        }
+    }
+
+    private string id;
+    public string Id
+    {
+        get { return id;}
+        set
+        {
+            if (IdUtils.IdIsValid(value))
+            {
+                id = value;
+            }
+        }
+    }
+
+    public Person(string name, string id)
+    {
+        this.Name = name;
+        this.Id = id;
+    }
+
+    public void IntroduceYourself()
+    {
+        Console.WriteLine(
+            $"Soy {this.Name} y mi cédula es {this.Id}");
     }
 }
